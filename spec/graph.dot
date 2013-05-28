@@ -1,0 +1,11 @@
+graph {
+  a:n -- b [len=5];
+  a:e -- c [len=4];
+  a -- d [len=2];
+  b -- c -- e [len=2];
+  b -- f [len=6];
+  c -- d [len=3];
+  d -- e [len=6];
+  e -- f [len=4];
+}
+
